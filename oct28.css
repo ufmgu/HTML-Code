@@ -1,0 +1,31 @@
+* {
+    background-color: lightcoral;
+}
+p {
+    background-color: brown;
+    margin-top: 60px;
+    margin-right: 200px;
+    margin-left: 30px;
+   /* margin-bottom: 300px;
+   margin = Outside 
+   padding = Inside */
+
+
+  /* padding: 30px;*/
+  padding-top: 60px;
+  padding-left: 100px;
+  color: white;
+  font-size: 15px;
+  border: 5px double rgb(17, 9, 123);
+
+}
+#p1 {
+    cursor: move;
+    background-color: blueviolet;
+    transition: 3s;
+}
+
+#p1:hover {
+    background-color: brown;
+    cursor: pointer;
+}
